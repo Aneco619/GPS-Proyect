@@ -1,0 +1,73 @@
+/* Estilos para la sección "Popular Courses" */
+.courses {
+    padding: 80px 0;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .section-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .course-item {
+    margin-bottom: 30px;
+  }
+  
+  .course-item a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .course-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .course-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .course-content .post-meta {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .course-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .course-content p {
+    margin-bottom: 0;
+  }
+  
+  .trainer {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .trainer .photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .trainer .name {
+    font-weight: bold;
+  }
+  
