@@ -78,10 +78,9 @@ include 'base_datos/buscar_noticia.php';
       </div>
     </section>
     <!-- End Hero Section -->
-    <hr>
-    <br>
+    <hr style="margin-top: 1rem; margin-bottom:0">
     <!-- ======= Categoría ======= -->
-    <section id="popular-courses" class="courses">
+    <section id="popular-courses" class="courses" style="background-color: #F2FBFD;">
       <div class="container" data-aos="fade-up">
         <div class="section-header d-flex justify-content-between align-items-center mb-5">
           <h2 id=primero>Conoce más</h2>
