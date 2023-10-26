@@ -9,6 +9,8 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Font awesome(iconos) -->
+  <script src="https://kit.fontawesome.com/f128dca28b.js" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/logo/Logo3.png" rel="icon">
 
@@ -37,56 +39,60 @@
 
 </head>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+<!-- ======= Header ======= -->
+<header id="header" class="header d-flex align-items-center fixed-top" style="background-color: #0070D2;">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo/logg1.gif" class="logo1" alt="">           
+    <a href="index.html" class="logo d-flex align-items-center">
+      <img src="panel_control\template\assets\images\espaciologo.svg" class="logo1" alt="">
+    </a>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li>
+          <a href="index.php">Inicio</a>
+        </li>
+        <li class="dropdown">
+          <a href="servicios.php">Servicios</a>
+        </li>
+        <li>
+          <a href="nosotros.php">Quienes somos</a>
+        </li>
+        <li>
+          <a href="contacto.php">Contacto</a>
+        </li>
+        <li>
+          <a href="soporte.php">Soporte</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Logos -->
+    <div class="d-flex p-2 gap-4">
+      <!-- cambiar perfil facebook -->
+      <a href="https://www.facebook.com/profile.php?id=100070818625819">
+        <i class="fa-brands fa-facebook fa-3x" style="color: #FFFFFF;"></i>
       </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.php">Inicio</a></li>
-          <li class="dropdown">
-            <a href="#">
-              <span>Categorías</span> 
-              <i class="bi bi-chevron-down dropdown-indicator"></i>
-            </a>
-            <ul>
-              <li><a href=#segundP>Servicio Social</a></li>
-              <li><a href=#primerp>Interés Público </a></li>
-              <li><a href=#ser> S E R </a></li>
-              <li><a href=#otross>Otros</a></li>
-            </ul>
-          </li>
-          <li><a href="nosotros.php">Sobre Nosotros</a></li>
-          <li><a href="contacto.php">Contacto</a></li>
-          <li><a href="eventos.php">Eventos</a></li>
-          <li><a href="donativos.php">Donativos</a></li>
-        </ul>
-      </nav>
-      <!-- .navbar -->
-
-        <div class="position-relative">
-          <a href="https://www.facebook.com/profile.php?id=100070818625819"><img src="assets/img/FACE.png" class="redes" width="40px" height="40px"  alt="facebook"></a>
-          <a href="https://www.instagram.com/ser.a.c/"><img src="assets/img/INSTA.png" class="redes" width="40px" height="40px" alt="instagram"></a>        
-          <a href="#"><img src="assets/img/TWITTER.png" class="redes" width="40px" height="40px" alt="TWITTER"></a>        
-        </div>   
-      </div>
+      <a href="https://www.instagram.com/ser.a.c/">
+        <i class="fa-brands fa-whatsapp fa-3x" style="color: #FFFFFF;"></i>
+      </a>
+      <a href=" #">
+        <i class="fa-solid fa-envelope fa-3x " style="color: #FFFFFF;"></i>
+      </a>
     </div>
+  </div>
+  </div>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-
-  </header><!-- End Header -->
+</header><!-- End Header -->
