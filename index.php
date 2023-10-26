@@ -61,91 +61,55 @@ include 'base_datos/buscar_noticia.php';
   ?>
 
   <main id="main">
-    <!-- ======= Hero Slider Section ======= -->
-    <section id="hero-slider" class="hero-slider">
-      <div class="container-md" data-aos="fade-in">
-        <div class="row">
-          <div class="col-12">
-            <div class="swiper sliderFeaturedPosts">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="#" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/utilesninos.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>Entrega de útiles escolares para los niños</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="#" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/arbolitos1.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>Sembrando Oxígeno</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="#" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/ninospaseo.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>Un paseo con los niños del Orfanato "Ciudad de los niños Morelia"</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="#" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/estatal.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>"Encuentro estatal en pro de la juventud "</h2>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="custom-swiper-button-next">
-                <span class="bi-chevron-right"></span>
-              </div>
-              <div class="custom-swiper-button-prev">
-                <span class="bi-chevron-left"></span>
-              </div>
-
-              <div class="swiper-pagination"></div>
-            </div>
+    <!-- ======= Hero Section ======= -->
+    <section>
+      <div class="container" style="height: 80vh">
+        <div class="row align-items-center h-100">
+          <div class="col-7">
+            <h1 style="color:#001449; font-size: 4rem">Ofreciendo soluciones a las problemáticas del futuro</h1>
+            <h2 style="color: #005BC5; font-size: 3rem">preservando el ambiente.</h2>
+            <p style="font-size: 1.5rem">¿necesitas implementar redes funcionales con equipo reutilizado?</p>
+            <button type="button" class="btn btn-info">Conoce más</button>
+          </div>
+          <div class="col">
+            <img src="assets\img\hero-prueba.svg" alt="hero-prueba">
           </div>
         </div>
       </div>
-    </section><!-- End Hero Slider Section -->
+    </section>
+    <!-- End Hero Section -->
     <hr>
     <br>
     <!-- ======= Categoría ======= -->
     <section id="popular-courses" class="courses">
       <div class="container" data-aos="fade-up">
-
         <div class="section-header d-flex justify-content-between align-items-center mb-5">
-          <h2 id=segundP>Servicio Social</h2>
+          <h2 id=primero>Conoce más</h2>
           <div class="more"></div>
         </div>
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
           <!-- Mostrar noticias de la categoría "Interés Público" -->
           <?php
-          $query_servicioSocial = "SELECT * FROM noticias WHERE categoria = 'SERVICIO SOCIAL'";
-          $result_servicioSocial = mysqli_query($conexion, $query_servicioSocial);
+          $query_interesPublico = "SELECT * FROM noticias WHERE categoria = 'INTERÉS PÚBLICO'";
+          $result_interesPublico = mysqli_query($conexion, $query_interesPublico);
 
-          while ($row_servicioSocial = mysqli_fetch_array($result_servicioSocial)) {
+          while ($row_interesPublico = mysqli_fetch_array($result_interesPublico)) {
           ?>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="course-item">
-                <a href="noticia_detalle.php?id=<?php echo $row_servicioSocial['noticia_id'] ?>">
-                  <img src="data:image;base64,<?php echo base64_encode($row_servicioSocial['imagen']); ?>" class="img-fluid">
+                <a href="noticia_detalle.php?id=<?php echo $row_interesPublico['noticia_id'] ?>">
+                  <img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen']); ?>" class="img-fluid">
                   <div class="course-content">
                     <br>
-                    <div class="post-meta"><span class="date"><?php echo $row_servicioSocial['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_servicioSocial['fecha'] ?></span></div>
-                    <h3><?php echo $row_servicioSocial['titulo'] ?></h3>
-                    <p><?php echo $row_servicioSocial['descripcion'] ?></p>
+                    <div class="post-meta"><span class="date"><?php echo $row_interesPublico['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_interesPublico['fecha'] ?></span></div>
+                    <h3><?php echo $row_interesPublico['titulo'] ?></h3>
+                    <p><?php echo $row_interesPublico['descripcion'] ?></p>
                 </a>
                 <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="d-flex align-items-center author">
-                    <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_servicioSocial['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
-                    <div class="name"><span><?php echo $row_servicioSocial['nombre_mentor'] ?></span></div>
+                    <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
+                    <div class="name"><span><?php echo $row_interesPublico['nombre_mentor'] ?></span></div>
                   </div>
                 </div>
               </div>
@@ -154,114 +118,7 @@ include 'base_datos/buscar_noticia.php';
       <?php
           }
       ?>
-
-      <div class="section-header d-flex justify-content-between align-items-center mb-5">
-        <h2 id=primerp>Interés Público</h2>
-        <div class="more"></div>
-      </div>
-      <div class="row" data-aos="zoom-in" data-aos-delay="100">
-
-        <!-- Mostrar noticias de la categoría "Interés Público" -->
-        <?php
-        $query_interesPublico = "SELECT * FROM noticias WHERE categoria = 'INTERÉS PÚBLICO'";
-        $result_interesPublico = mysqli_query($conexion, $query_interesPublico);
-
-        while ($row_interesPublico = mysqli_fetch_array($result_interesPublico)) {
-        ?>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="course-item">
-              <a href="noticia_detalle.php?id=<?php echo $row_interesPublico['noticia_id'] ?>">
-                <img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen']); ?>" class="img-fluid">
-                <div class="course-content">
-                  <br>
-                  <div class="post-meta"><span class="date"><?php echo $row_interesPublico['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_interesPublico['fecha'] ?></span></div>
-                  <h3><?php echo $row_interesPublico['titulo'] ?></h3>
-                  <p><?php echo $row_interesPublico['descripcion'] ?></p>
-              </a>
-              <div class="trainer d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
-                  <div class="name"><span><?php echo $row_interesPublico['nombre_mentor'] ?></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div> <!-- End Course Item-->
-    <?php
-        }
-    ?>
-
-    <div class="section-header d-flex justify-content-between align-items-center mb-5">
-      <h2 id=ser>S E R</h2>
-      <div class="more"></div>
-    </div>
-    <!-- Mostrar noticias de la categoría "S E R" -->
-    <?php
-    $query_ser = "SELECT * FROM noticias WHERE categoria = 'S E R'";
-    $result_ser = mysqli_query($conexion, $query_ser);
-
-    while ($row_ser = mysqli_fetch_array($result_ser)) {
-    ?>
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="course-item">
-          <a href="noticia_detalle.php?id=<?php echo $row_ser['noticia_id'] ?>">
-            <img src="data:image;base64,<?php echo base64_encode($row_ser['imagen']); ?>" class="img-fluid">
-            <div class="course-content">
-              <br>
-              <div class="post-meta"><span class="date"><?php echo $row_ser['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_ser['fecha'] ?></span></div>
-              <h3><?php echo $row_ser['titulo'] ?></h3>
-              <p><?php echo $row_ser['descripcion'] ?></p>
-          </a>
-          <div class="trainer d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center author">
-              <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_ser['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
-              <div class="name"><span><?php echo $row_ser['nombre_mentor'] ?></span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div> <!-- End Course Item-->
-    <?php
-    }
-    ?>
-    <div class="section-header d-flex justify-content-between align-items-center mb-5">
-      <h2 id=otross>Otros</h2>
-      <div class="more"></div>
-    </div>
-    <!-- Mostrar noticias de la categoría "Servicio Social" -->
-    <?php
-    $query_otros = "SELECT * FROM noticias WHERE categoria = 'OTROS'";
-    $result_otros = mysqli_query($conexion, $query_otros);
-
-    while ($row_otros = mysqli_fetch_array($result_otros)) {
-    ?>
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="course-item">
-          <a href="noticia_detalle.php?id=<?php echo $row_otros['noticia_id'] ?>">
-            <img src="data:image;base64,<?php echo base64_encode($row_otros['imagen']); ?>" class="img-fluid">
-            <div class="course-content">
-              <br>
-              <div class="post-meta"><span class="date"><?php echo $row_otros['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_otros['fecha'] ?></span></div>
-              <h3><?php echo $row_otros['titulo'] ?></h3>
-              <p><?php echo $row_otros['descripcion'] ?></p>
-          </a>
-          <div class="trainer d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center author">
-              <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_otros['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
-              <div class="name"><span><?php echo $row_otros['nombre_mentor'] ?></span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div> <!-- End Course Item-->
-    <?php
-    }
-    ?>
-
-    </div>
-    </div>
     </section><!-- End Categoría -->
-
 
   </main><!-- End #main -->
   </div>
