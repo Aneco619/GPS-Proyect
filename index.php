@@ -2,7 +2,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $contrasena = '';
-$base_datos = 'sueños_esperanzas_y_risas';
+$base_datos = 'nasnation';
 
 $conexion = mysqli_connect($host, $usuario, $contrasena, $base_datos);
 
@@ -14,9 +14,9 @@ if (!$conexion) {
 
 <?php
 include 'servidor.php';
-include 'base_datos/listar_evento.php';
-include 'base_datos/listar_noticia.php';
-include 'base_datos/buscar_noticia.php';
+// include 'base_datos/listar_evento.php';
+// include 'base_datos/listar_noticia.php';
+// include 'base_datos/buscar_noticia.php';
 ?>
 
 <!DOCTYPE html>
