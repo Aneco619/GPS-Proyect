@@ -3,7 +3,6 @@
 include '../servidor.php';
 
 if (isset($_POST)) {
-
     $titulo = $_POST['titulo'];
     $descripcion = $_POST['descripcion'];
     $categoria = $_POST['categoria'];
