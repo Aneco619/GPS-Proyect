@@ -43,7 +43,7 @@
   <?php
     require_once 'header.php';
   ?>
-
+ <!-- pinche tilin  -->
   <main id="main">
     <section>
       <div class="container" data-aos="fade-up">
