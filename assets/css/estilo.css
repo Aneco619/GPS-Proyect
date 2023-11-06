@@ -1,0 +1,138 @@
+        /* Estilo para el contenedor azul */
+        .support-container {
+          float: right;
+            background-color: #3498db;
+            color: #ffffff;
+            text-align: center;
+            border-top-left-radius: 30px; 
+            border-bottom-right-radius: 30px;
+            width: 300px; 
+            height: 450px;
+        }
+
+      
+        /* Estilo para el botón */
+        .support-button {
+            background-color: #ffffff;
+            color: #3498db;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        header {
+          text-align: center; 
+        }
+
+        h1 {
+          font-size: 24px; 
+          color: #333; 
+        }
+
+        .linea-encabezado {
+          border: none; 
+          border-top: 2px solid #001f3f; 
+          width: 50%; 
+          margin: 10px auto; 
+        }
+
+
+.faq-and-form-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 200px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+/* Estilos para preguntas frecuentes */
+.faq-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #f0f0f0; 
+    max-width: 550px;
+    margin-left: 55px;
+    padding: 20px;
+  }
+  
+  .faq-question {
+    margin-bottom: 10px;
+  }
+  
+  .faq-toggle {
+    display: none;
+  }
+  
+  .faq-answer {
+    display: none;
+    background-color: #025E80; 
+    padding: 10px;
+    max-width: 550px;
+  }
+  
+  .faq-toggle:checked + label + .faq-answer {
+    display: block;
+  }
+  
+  .faq-question label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0; 
+    text-align: center; 
+  }
+  /* Estilos para el formulario de contacto de soporte */
+.support-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    background-color: #f0f0f0;
+    margin-bottom: 100px;
+    margin-top: 150px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  small {
+    display: block;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
