@@ -1,5 +1,5 @@
 <?php
-include '../../../servidor.php';
+// include '../../../servidor.php';
 // include '../../../base_datos/listar_noticia.php';
 // include '../../../base_datos/buscar_noticia.php';
 ?>
