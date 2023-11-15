@@ -36,114 +36,85 @@
   <link href="assets/css/variables.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
+   <!-- mi estilo -->
+  <link rel="stylesheet" type="text/css" href="assets\css\estiloo.css">
+
 </head>
 
 <body>
-
+container
   <?php
     require_once 'header.php';
   ?>
  <!-- pinche tilin  -->
   <main id="main">
     <section>
-      <div class="container" data-aos="fade-up">
-        <div class="row">
+
+      <div class="" data-aos="fade-up">
+        
+        <div class="row justify-content-between align-items-lg-center">
           <div class="col-lg-12 text-center mb-5">
-            <h1 class="page-title">Sobre nosotros</h1>
+            <h1 class="sobre-noaotros">Sobre nosotros</h1>
           </div>
         </div>
 
         <div class="row mb-5">
           <div class="d-md-flex post-entry-2 half">
             <a href="#" class="me-4 thumbnail">
-              <img src="assets/img/Logo 3.png" alt="" class="img-fluid">
+              <img src="assets/img/equipo.jpg" alt="" class="img-fluid">
             </a>
             <div class="ps-md-5 mt-4 mt-md-0">
-              <div class="post-meta mt-4">Somos</div>
-              <h2 class="mb-4 display-4">Sueños, Esperanzas y Risas A.C.</h2>
-              <p>Somos una Asociación civil sin fines de lucro compuesta por jóvenes que quieren un cambio positivo.</p>
+              <div class="letrapeq">Quiénes somos</div>
+              <h2 class="mb-4 display-4"> NASNATION</h2>
+              <p>Somos un equipo apasionado por la tecnología de servidores NAS y comprometidos con la sostenibilidad.
+                 Unidos en nuestra misión de maximizar el valor de los recursos existentes, nuestra estrategia se centra en dar nueva vida a equipos reutilizados.
+                 Impulsados por la eficiencia energética y la optimización de recursos, aprovechamos la potencia de servidores NAS reacondicionados para brindar soluciones de almacenamiento fiables y respetuosas con el medio ambiente. 
+                 Nuestro compromiso inquebrantable con la reutilización, la reducción de residuos electrónicos y la eficiencia nos impulsa a ofrecer opciones eco-amigables sin comprometer el rendimiento.</p>
             </div>
           </div>
-
+          <div class="me-4 area-con-fondo">
           <div class="d-md-flex post-entry-2 half mt-5">
             <a href="#" class="me-4 thumbnail order-2">
-              <img src="assets/img/mision.png" alt="" class="img-fluid">
+              <img src="assets/img/vision.png" alt="" class="img-fluid">
             </a>
-            <div class="pe-md-5 mt-4 mt-md-0">
-              <div class="post-meta mt-4">Misión &amp; Visión</div>
-              <h2 class="mb-4 display-4">Misión &amp; Visión</h2>
-              <p>Contribuir en el desarrollo integral familiar enfocándonos principalmente en los niños en estado marginal de nuestro país, desde un punto de vista alimenticio, educativo y emocional.</p>
-              <p>Llegar a ser la Asociación Civil de jóvenes más importante e influyente a nivel nacional e internacional, gracias a que promovemos el cambio de conciencia en las futuras generaciones mediante el desarrollo de resiliencia en cada una de las comunidades que atendemos.</p>
+               <div class="pe-md-5 mt-4 mt-md-0">
+              <div class="letrapeq"> Nuestra Misión &amp; Visión</div>
+              <h2 class="mi-clase-personalizada">OFRECEMOS UN MAÑANA SUSTENTABLE</h2>
+              <p class="letrat"> Es convertirnos en líderes reconocidos en la industria de almacenamiento NAS sostenible, impulsando un cambio significativo en la forma en que las organizaciones gestionan sus datos.
+                                 Visualizamos un mundo donde la reutilización de equipos electrónicos sea una práctica común y donde nuestras soluciones de almacenamiento, basadas en servidores NAS reacondicionados, 
+                                 sean la elección preferida por su eficiencia, rendimiento y, sobre todo, su impacto positivo en el medio ambiente. A través de nuestra dedicación a la sostenibilidad, 
+                                 aspiramos a contribuir a un planeta más limpio y próspero para las generaciones futuras.</p>
             </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="mb-5 bg-light py-5">
+    <div class="me-4 area-con-fondo1">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-between align-items-lg-center">
           <div class="col-lg-5 mb-4 mb-lg-0">
-            <h2 class="display-4 mb-4">Marco ético</h2>
-            <p>Sueños, Esperanzas y Risas. A.C. tiene la responsabilidad como asociación de ser honesta, responsable y ética, para dar una información fidedigna y no generar situaciones de manipulación para beneficio personal de sus colaboradores o integrantes de su staff. Tiene la vocación de ir más allá de los límites de raza, religión, etnias, cultura y política.</p>
-            <p>Tienen la obligación de respetar a cada persona, fundamentalmente en lo referente a los derechos humanos. Para esto se basa en principios ya estipulados de manera oficial.</p>           
+            <h2 class="valores">NUESTRO CÓDIGO</h2>
+            <p>Nuestros valores y nuestra cultura nos diferencian.</p>
+            <p>Estamos firmemente comprometidos con la sostenibilidad, creyendo que un cambio positivo en el mundo se logra a través de prácticas sostenibles. Nos esforzamos por reducir la huella de carbono y el desperdicio electrónico mediante la reutilización de equipos y la eficiencia energética. Abrazamos la innovación como medio para abordar desafíos ambientales y tecnológicos, buscando soluciones creativas que promuevan la sostenibilidad. Defendemos la igualdad y la diversidad, valorando las perspectivas únicas de nuestro equipo en un entorno inclusivo. Fomentamos la confianza y transparencia en nuestras relaciones, tanto internas como con clientes, garantizando nuestro compromiso con la sostenibilidad y calidad.</p>           
           </div>
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-6">
-                <img src="assets/img/VALORES.png" alt="" class="img-fluid mb-4">
-              </div>
+             
+              <img src="assets/img/sus.jpeg" alt="" class="img-fluid">
+              
               <div class="col-6 mt-4">
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <h2 class="display-4">Equipo de trabajo</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/Luis.jpg" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Luis Aleman</h4>
-            <span class="d-block mb-3 text-uppercase">Director </span>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/roverto.png" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Roberto</h4>
-            <span class="d-block mb-3 text-uppercase">Colaborador</span>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/Giobanna.png" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Giovanna</h4>
-            <span class="d-block mb-3 text-uppercase">Colaborador</span>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/Fernando.png" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Fernando</h4>
-            <span class="d-block mb-3 text-uppercase">Colaborador</span>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/miguel.png" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Miguel</h4>
-            <span class="d-block mb-3 text-uppercase">Colaborador</span>
-          </div>
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/img/juan.png" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Juan</h4>
-            <span class="d-block mb-3 text-uppercase">Colaborador</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </main><!-- End #main -->
 
   <?php
