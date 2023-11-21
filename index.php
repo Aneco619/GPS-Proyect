@@ -1,16 +1,16 @@
 <?php
-// $host = 'localhost';
-// $usuario = 'root';
-// $contrasena = '';
-// $base_datos = 'nasnation';
+$host = 'localhost';
+$usuario = 'root';
+$contrasena = '';
+$base_datos = 'nasnation';
 
-// $conexion = mysqli_connect($host, $usuario, $contrasena, $base_datos);
+$conexion = mysqli_connect($host, $usuario, $contrasena, $base_datos);
 
-// if (!$conexion) {
-//   die('Error al conectar con la base de datos: ' . mysqli_connect_error());
-// }
+if (!$conexion) {
+  die('Error al conectar con la base de datos: ' . mysqli_connect_error());
+}
 
-// 
+
 ?>
 
 <?php
@@ -91,15 +91,15 @@ include 'servidor.php';
 
           <!-- Mostrar noticias de la categoría "Interés Público" -->
           <?php
-          $query_interesPublico = "SELECT * FROM noticias WHERE categoria = 'INTERÉS PÚBLICO'";
+          $query_interesPublico = "SELECT * FROM publicaciones";
           $result_interesPublico = mysqli_query($conexion, $query_interesPublico);
 
           while ($row_interesPublico = mysqli_fetch_array($result_interesPublico)) {
           ?>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="course-item">
-                <a href="noticia_detalle.php?id=<?php echo $row_interesPublico['noticia_id'] ?>">
-                  <img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen']); ?>" class="img-fluid">
+                <a href="noticia_detalle.php?id=<?php echo $row_interesPublico['id'] ?>">
+                  <img src="./assets/img/<?php echo $row_interesPublico['imagenprev']; ?>" class="img-fluid">
                   <div class="course-content">
                     <br>
                     <div class="post-meta"><span class="date"><?php echo $row_interesPublico['categoria'] ?></span> <span class="mx-1">&bullet;</span> <span><?php echo $row_interesPublico['fecha'] ?></span></div>
@@ -108,8 +108,8 @@ include 'servidor.php';
                 </a>
                 <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="d-flex align-items-center author">
-                    <div class="photo"><img src="data:image;base64,<?php echo base64_encode($row_interesPublico['imagen_mentor']); ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
-                    <div class="name"><span><?php echo $row_interesPublico['nombre_mentor'] ?></span></div>
+                    <div class="photo"><img src="./assets/img/<?php echo $row_interesPublico['imagenpub']; ?>" style="border-radius: 50%; width: 100px; height: auto;"></div>
+                    <div class="name">NasNation</span></div>
                   </div>
                 </div>
               </div>

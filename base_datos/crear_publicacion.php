@@ -1,30 +1,30 @@
 <?php
 include '../servidor.php';
+include '../config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Acceder a los datos del formulario
 
     $titulo = $_POST['titulo'];
     $descripcion = $_POST['descripcion'];
+    $categoria = $_POST['categoria'];
     $fecha = $_POST['fechapub'];
 
     // Acceder y procesar los archivos cargados
     $imagenpub = $_FILES['imagenpub']['name'];
-    $imagenedit = $_FILES['imagenedit']['name'];
+    $imagenprev = $_FILES['imagenprev']['name'];
 
     // Ruta de destino para las imágenes
-    $rutaImagenPub = 'ruta/donde/guardar/imagenpub/' . $imagenpub;
-    $rutaImagenEdit = 'ruta/donde/guardar/imagenedit/' . $imagenedit;
+    $rutaImagenPub = '../assets/img/' . $imagenpub;
+    $rutaImagenPrev = '../assets/img/' . $imagenprev;
 
     // Mover los archivos a la ruta de destino
     move_uploaded_file($_FILES['imagenpub']['tmp_name'], $rutaImagenPub);
-    move_uploaded_file($_FILES['imagenedit']['tmp_name'], $rutaImagenEdit);
+    move_uploaded_file($_FILES['imagenprev']['tmp_name'], $rutaImagenPrev);
 
-    // Realizar la inserción en la base de datos
-    global $conn;
 
-    $insertQuery = "INSERT INTO nasnation.publicaciones (titulo, descripcion, fecha, imagenpub, imagenedit) 
-    VALUES ('$titulo', '$descripcion', '$fecha', '$rutaImagenPub', '$rutaImagenEdit')";
+    $insertQuery = "INSERT INTO nasnation.publicaciones (titulo, descripcion, categoria, fecha, imagenpub, imagenprev) 
+    VALUES ('$titulo', '$descripcion', '$categoria', '$fecha', '$imagenpub', '$imagenprev')";
 
     $respuestaDelQuery = mysqli_query($conn, $insertQuery);
 
