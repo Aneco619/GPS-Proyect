@@ -48,7 +48,7 @@
       <div class="row gy-4">
         <div class="col-md-6">
           <!-- formulario -->
-          <div class="contact-form" style="margin-top: 50px; border-right: 500px;">
+          <div class="contact-form" style= background-color: #f5f5f5;>
             <h3>Envíanos un mensaje</h3>
             <form action="assets/form/form_contacto.php" method="post">
                <div class="mb-3">
