@@ -1,0 +1,53 @@
+.mi-clase-personalizada {
+    font-size: 26px; /* Tamaño de fuente personalizado, puedes ajustarlo según tus preferencias */
+    color: #110f0f;    /* Color de texto personalizado, puedes cambiar el código de color según tus preferencias */
+    margin: 0px;   /* Margen de 10px en todos los lados, puedes ajustar esto según tus preferencias */
+    padding: 5px; /* Relleno de 20px en todos los lados, puedes ajustar esto según tus preferencias */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 1; /* Separación entre líneas, ajusta según tus preferencias */
+
+}
+
+.sobre-noaotros {
+    font-size: 64px; 
+    color: #001449;   
+    margin: 10px;   
+}
+
+.letrapeq {
+    font-size: 18px; 
+    color: #106ace;  
+    margin: 10px;  
+    padding: 5px; /* Relleno de 20px en todos los lados, puedes ajustar esto según tus preferencias */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 1; /* Separación entre líneas, ajusta según tus preferencias */
+}
+.letrat {
+    font-size: 19px; 
+    color: #464545;  
+    margin: 5px;  
+    padding: 5px; /* Relleno de 20px en todos los lados, puedes ajustar esto según tus preferencias */
+    justify-content: justify;
+    text-align: center;
+    line-height: 1.5; /* Separación entre líneas, ajusta según tus preferencias */ 
+}
+
+  .area-con-fondo {
+    background-color: #f2fbfd; /* Cambia el color de fondo a azul (#001aff) */
+    padding: 30px; /* Espacio alrededor del contenido */
+  }
+
+  .valores {
+    font-size: 24px; /* Tamaño de fuente personalizado, puedes ajustarlo según tus preferencias */
+    color: #110f0f;    /* Color de texto personalizado, puedes cambiar el código de color según tus preferencias */
+
+}
+.area-con-fondo1 {
+    background-color: #dff7fd; /* Cambia el color de fondo a azul (#001aff) */
+    padding: 30px; /* Espacio alrededor del contenido */
+  }
+
+  .custom-image {
+    max-width: 50%;
+    height: auto;
+  }
