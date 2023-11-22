@@ -15,7 +15,7 @@
             <h3 class="footer-heading">Navegación</h3>
             <ul class="footer-links list-unstyled">
               <li><a href="index.php"><i class="bi bi-chevron-right"></i> Inicio</a></li>
-              <li><a href="index.php"><i class="bi bi-chevron-right"></i> Servicios</a></li>
+              <li><a href="Servicios.php"><i class="bi bi-chevron-right"></i> Servicios</a></li>
               <li><a href="nosotros.php"><i class="bi bi-chevron-right"></i>Quienes somos</a></li>
               <li><a href="contacto.php"><i class="bi bi-chevron-right"></i> Contacto</a></li>
               <li><a href="eventos.php"><i class="bi bi-chevron-right"></i> Soporte</a></li>

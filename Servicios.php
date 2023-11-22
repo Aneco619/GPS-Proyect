@@ -113,24 +113,26 @@
         <div class="row mb-5">
           <div class="d-md-flex post-entry-2 half">
             <a href="#" class="me-4 thumbnail">
-              <img src="assets/img/NAS.png" alt="" class="img-fluid">
+              <img src="assets/img/st.png" alt="" class="img-fluid">
             </a>
             <div class="ps-md-5 mt-4 mt-md-0">
               <div class="post-meta mt-4"><!--Somos!--></div>
-              <h2 class="mb-4 display-4">PENDIENTE PENDIENTE PENDIENTE</h2>
-              <p>PENDIENTEPENDIENTE PENDIENTEPENDIENTE</p>
+              <h2 class="mb-4 display-4">Soporte Técnico</h2>
+              <p>MANTENIMIENTO CORRECTIVO que proporciona servicios de diagnóstico para identificar problemas y realizar acciones correctivas de manera eficiente.</p>
+              <p>MANTENIMIENTO PREVENTIVO que implementa programas regulares de actualización de software y aplicaciones para garantizar que el servidor esté protegido contra vulnerabilidades de seguridad.</p>
             </div>
           </div>
 
           <div class="d-md-flex post-entry-2 half mt-5">
             <a href="#" class="me-4 thumbnail order-2">
-              <img src="assets/img/PE.png" alt="" class="img-fluid">
+              <img src="assets/img/acc.png" alt="" class="img-fluid">
             </a>
             <div class="pe-md-5 mt-4 mt-md-0">
               <div class="post-meta mt-4"><!--Somos!--></div>
-              <h2 class="mb-4 display-4">PENDIENTEPENDIEE</h2>
-              <p>PENDIENTEPENDIENTE PENDIENTEPENDIENTEPENDIENTEPENDIENTE PENDIENTEPENDIENTE </p>
-              <p>PENDIENTEPENDIENTE PENDIENTEPENDIENTEPENDIENTEPENDIENTE PENDIENTEPENDIENTE</p>
+              <h2 class="mb-4 display-4">Venta De Accesorios</h2>
+              <p>Amplia tu almacenamiento con discos duros adicionales, potencia el rendimiento con actualizaciones de memoria ram
+                garantiza la seguirdad con UPS y fuentes de alimentación </p>
+              <p>Optimizar la conectividad con tarketas de red adicionales </p>
             </div>
           </div>
         </div>
