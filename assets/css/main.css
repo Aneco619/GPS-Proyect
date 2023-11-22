@@ -1343,3 +1343,41 @@ section {
 .footer .credits a {
   color: var(--color-white);
 }
+.support-container {
+  float: right;
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    width: 300px; 
+    height: 450px;
+}
+
+
+/* Estilo para el botón */
+.support-button {
+    background-color: #ffffff;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+h1 {
+  font-size: 24px; /* Tamaño de fuente del encabezado */
+  color: #333; /* Color del texto */
+}
+
+.linea-encabezado {
+  border: none; /* Quita el borde predeterminado de la línea */
+  border-top: 2px solid #001f3f; /* Establece un borde superior de 2 píxeles de ancho en color azul marino */
+  width: 50%; /* Ancho de la línea, ajusta según tus necesidades */
+  margin: 10px auto; /* Centra la línea horizontalmente y agrega espacio superior e inferior */
+}
