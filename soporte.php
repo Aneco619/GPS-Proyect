@@ -33,12 +33,23 @@
   require_once 'header.php';
   ?>
 
+<main id="main">
+  <section id="supp" class="supp mb-5">
+    <div class="container" data-aos="fade-up"> 
+      <div class="row">  
+
+<div class="support-header">
+  <h1>Soporte</h1>
+  <hr class="blue-line">
+</div>
+      </div>
+
   <div class="faq-and-form-container">
     <div class="faq-container">
      <h2>Preguntas frecuentes</h2>
       <div class="faq-question">
       <input type="checkbox" class="faq-toggle" id="faq1">
-      <label for="faq1">+ ¿Cada cuanto debo hacer le mantenimiento a mi servidor NAS?</label>
+      <label for="faq1">+ ¿Cada cuánto debo hacer le mantenimiento a mi servidor NAS?</label>
       <div class="faq-answer">
         <p>La frecuencia exacta con la que debes realizar el mantenimiento de un servidor NAS puede
         variar según varios factores, como condiciones del entorno y carga de trabajo, pero
@@ -124,7 +135,7 @@ para acceder a los recursos compartidos. </p>
 
     <div class="faq-question">
       <input type="checkbox" class="faq-toggle" id="faq5"> 
-      <label for="faq5">+ ¿Qué hago si mi servidor NAS se trabo o bloqueo? </label>
+      <label for="faq5">+ ¿Qué hago si mi servidor NAS se trabó o bloqueó? </label>
       <div class="faq-answer">
         <p>Si tu servidor NAS se ha bloqueado o no responde, puedes seguir estos pasos para intentar
         resolver el problema:</p>
@@ -139,7 +150,7 @@ para acceder a los recursos compartidos. </p>
         problemas, intenta acceder localmente desde una computadora o dispositivo conectado a la
         misma red. Esto te ayudará a determinar si el problema está relacionado con el acceso
         remoto o con el NAS en sí.</p>
-        <p>Desconecta y vuelve a conectar los discos duros: si el servidor NAS todavía no responde,
+        <p>Desconecta y vuelve a conectar los discos duros: i el servidor NAS todavía no responde,
         apágalo, desconecta y vuelve a conectar los discos duros internos. Asegúrate de que estén
         bien conectados. Luego, enciende el servidor NAS nuevamente.</p>
 
@@ -152,44 +163,50 @@ para acceder a los recursos compartidos. </p>
     </div>
   </div>
 
-  <div>
+  <p class="additional-message">¿Otra duda o problema con el servicio? ¡Contáctanos!</p>
 
-  <div class="support-form-container">
-    <h2>Contacto de Soporte</h2>
-    <form action="procesar_formulario_soporte.php" method="post" enctype="multipart/form-data">
-      <div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="consulta">Mensaje o Consulta:</label>
-        <textarea id="consulta" name="consulta" rows="4" required></textarea>
-      </div>
-      <div class="form-group">
-        <label for="categoria">Categoría de Soporte:</label>
-        <select id="categoria" name="categoria">
-          <option value="Problemas Técnicos">Problemas Técnicos</option>
-          <option value="Preguntas sobre Facturación">Preguntas sobre Facturación</option>
-          <option value="Sugerencias">Sugerencias</option>
-          <option value="Otro">Otro</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="adjuntos">Adjuntar Archivos (opcional):</label>
-        <input type="file" id="adjuntos" name="adjuntos">
-        <small>Adjunta capturas de pantalla u otros archivos relacionados (opcional).</small>
-      </div>
-      <div class="form-group">
-        <label for="telefono">Número de Teléfono (opcional):</label>
-        <input type="tel" id="telefono" name="telefono">
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar Consulta</button>
-    </form>
-  </div>
+
+
+
+    <div class="support-form-container">
+      <h2>Contacto de Soporte</h2>
+      <form action="procesar_formulario_soporte.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="consulta">Mensaje o Consulta:</label>
+          <textarea id="consulta" name="consulta" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="categoria">Categoría de Soporte:</label>
+          <select id="categoria" name="categoria">
+            <option value="Problemas Técnicos">Problemas Técnicos</option>
+            <option value="Preguntas sobre Facturación">Preguntas sobre Facturación</option>
+            <option value="Sugerencias">Sugerencias</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="adjuntos">Adjuntar Archivos (opcional):</label>
+          <input type="file" id="adjuntos" name="adjuntos">
+          <small>Adjunta capturas de pantalla u otros archivos relacionados (opcional).</small>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Número de Teléfono (opcional):</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+      </form>
+    </div>
+
+    </section>
+</main>
 
 
   <?php
