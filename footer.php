@@ -9,7 +9,7 @@
             <h3 class="footer-heading">NASNation. A.C. </h3>
             <p> Copyright NASNATION</p>
             <p>Designed by David Guido Rodriguez, Janini Gonzalez Natividad, Andres Gabriel Garcia Salinas, Agustin Jareth Cornelio Calderon </p>
-            <p><a href="nosotros.html" class="footer-link-more">Leer más... </a></p>
+            <p><a href="nosotros.php" class="footer-link-more">Leer más... </a></p>
           </div>
           <div class="col-6 col-lg-3">
             <h3 class="footer-heading">Navegación</h3>
@@ -18,19 +18,19 @@
               <li><a href="Servicios.php"><i class="bi bi-chevron-right"></i> Servicios</a></li>
               <li><a href="nosotros.php"><i class="bi bi-chevron-right"></i>Quienes somos</a></li>
               <li><a href="contacto.php"><i class="bi bi-chevron-right"></i> Contacto</a></li>
-              <li><a href="eventos.php"><i class="bi bi-chevron-right"></i> Soporte</a></li>
+              <li><a href="soporte.php"><i class="bi bi-chevron-right"></i> Soporte</a></li>
             </ul>
           </div>
           <div class="col-6 col-lg-3 align-self-center">
             <div class="d-flex p-2 gap-4">
               <!-- cambiar perfil facebook -->
-              <a href="https://www.facebook.com/profile.php?id=100070818625819">
+              <a href="https://www.facebook.com">
                 <i class="fa-brands fa-facebook fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href="https://www.instagram.com/ser.a.c/">
+              <a href="tel://+52">
                 <i class="fa-brands fa-whatsapp fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href=" #">
+              <a href="mailto: example@a.a">
                 <i class="fa-solid fa-envelope fa-3x " style="color: #FFFFFF;"></i>
               </a>
             </div>

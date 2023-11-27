@@ -27,12 +27,12 @@ include 'servidor.php';
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sueños, Esperanzas y Risas. A.C. / Index</title>
+  <title>NASNation</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/Logo3.png" rel="icon">
+  <link href="assets/img/Logo moderno de tecnología Minimalista azul.png" rel="icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,10 +70,10 @@ include 'servidor.php';
             <h1 style="color:#001449; font-size: 4rem">Ofreciendo soluciones a las problemáticas del futuro</h1>
             <h2 style="color: #005BC5; font-size: 3rem">preservando el ambiente.</h2>
             <p style="font-size: 1.5rem">¿necesitas implementar redes funcionales con equipo reutilizado?</p>
-            <button type="button" class="btn btn-info">Conoce más</button>
+            <a href="Servicios.php" class="btn btn-info text-light">Conócenos</a>
           </div>
           <div class="col">
-            <img src="assets\img\hero-prueba.svg" alt="hero-prueba">
+            <img src="assets/img/3075838.jpg" alt="imagenNAS" class="img-fluid rounded">
           </div>
         </div>
       </div>
@@ -120,6 +120,78 @@ include 'servidor.php';
       ?>
     </section><!-- End Categoría -->
 
+    <section>
+      <div class="container" style="height: 80vh">
+        <div class="row align-items-center h-100">
+          <div class="col">
+            <img src="assets/img/NASnetwork.jpg" alt="imagenNAS" class="img-fluid border rounded">
+          </div>
+          <div class="col">
+            <h2 style="color: #005BC5; font-size: 3rem">NASNATION</h2>
+            <p class="fs-5">
+              Descubre el poder del NAS: tu propio universo de almacenamiento conectado en red. Imagina compartir la capacidad de
+              almacenamiento de tu ordenador con cualquier dispositivo en tu red doméstica. Con tecnología NAS, conviertes tu hogar
+              en un centro de datos personal, accediendo a tus archivos desde cualquier lugar y disfrutando de la seguridad de tener
+              tus datos en tu propio disco duro, no en servidores externos. Es como tener tu propia nube, pero en casa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: #F2FBFD;">
+      <div class="container" style="height: 80vh">
+        <div class="row align-items-center h-100">
+          <div class="col">
+            <h2 style="color: #005BC5; font-size: 3rem"> ¿Qué nos hace únicos?</h2>
+            <ul class="fs-5">
+              <li>Reutilización inteligente:</li>
+              <li>Costo accesible:</li>
+              <li>Privacidad y propiedad</li>
+              <li>Flexibilidad garantizada</li>
+              <li>Mantenimiento continuo:</li>
+            </ul>
+            <p style="color:#001449;">¡Nos destacamos al dar una nueva vida a dispositivos existentes, ofreciendo ahorro, personalización y un control total a nuestros usuarios!</p>
+          </div>
+          <div class=" col">
+            <img src="assets/img/young-man-engineer-making-program-analyses.jpg" class="img-fluid border rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container" style="height: 80vh">
+        <div class="row align-items-center h-100">
+          <div class="col">
+            <img src="assets/img/freebsd-1.svg" alt="imagenFreeBSD" class="img-fluid">
+          </div>
+          <div class="col">
+            <h2 style="color: #005BC5; font-size: 3rem">Sobre el Software de un NAS</h2>
+            <p class="fs-5">
+              FreeNAS es una solución de almacenamiento en red basada en FreeBSD, reconocida por su fiabilidad y diseñada para
+              entornos domésticos y empresariales. Utiliza el sólido sistema de archivos ZFS para proteger datos y ofrece una
+              interfaz web intuitiva para una gestión sencilla desde cualquier dispositivo en la red. Además, su flexibilidad
+              para instalarse en diferentes hardware y el soporte de plugins como btsync y Owncloud amplían sus funcionalidades,
+              facilitando la automatización y simplificación del mantenimiento de datos para organizaciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: #F2FBFD;">
+      <div class="container" style="height: 80vh">
+        <div class="row align-items-center h-100">
+          <div class="col">
+            <h2 style="color: #005BC5; font-size: 3rem"> BENEFICIOS</h2>
+            <ul class="list-group list-group-flush fs-5">
+              <li class="list-group-item" style="background-color: #F2FBFD;">Centralización de archivos: Almacena todos tus archivos importantes en un solo lugar, permitiendo acceso desde múltiples dispositivos simultáneamente.</li>
+              <li class="list-group-item" style="background-color: #F2FBFD;">Gestión simplificada: Mantiene respaldos y redundancia en un único espacio, facilitando la administración de recursos.</li>
+              <li class="list-group-item" style="background-color: #F2FBFD;">Versatilidad ampliada: Permite la instalación de programas adicionales como servidores multimedia y servicios de respaldo en la nube, lo que posibilita ejecutar diversos roles en un servidor doméstico.</li>
+            </ul>
+          </div>
+          <div class=" col">
+            <img src="assets/img/young-man-engineer-making-program-analyses.jpg" class="img-fluid border rounded">
+          </div>
+        </div>
+      </div>
+    </section>
   </main><!-- End #main -->
   </div>
   </div>
