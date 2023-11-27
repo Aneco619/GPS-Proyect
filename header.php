@@ -5,14 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sueños, Esperanzas y Risas. A.C. / Inicio</title>
+  <title>NASNation</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/Logo moderno de tecnología Minimalista azul.png" rel="icon">
   <!-- Font awesome(iconos) -->
   <script src="https://kit.fontawesome.com/f128dca28b.js" crossorigin="anonymous"></script>
-  <!-- Favicons -->
-  <link href="assets/img/logo/Logo3.png" rel="icon">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -44,7 +45,7 @@
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center">
-      <img src="panel_control\template\assets\images\espaciologo.svg" class="logo1" alt="">
+      <img src="assets/img/Logo moderno de tecnología Minimalista azul.png" class="logo1" alt="">
     </a>
 
     <!-- Navbar -->
@@ -70,10 +71,10 @@
     <!-- Logos -->
     <div class="d-flex p-2 gap-4">
       <!-- cambiar perfil facebook -->
-      <a href="https://www.facebook.com/profile.php?id=100070818625819">
+      <a href="#">
         <i class="fa-brands fa-facebook fa-3x" style="color: #FFFFFF;"></i>
       </a>
-      <a href="https://www.instagram.com/ser.a.c/">
+      <a href="#">
         <i class="fa-brands fa-whatsapp fa-3x" style="color: #FFFFFF;"></i>
       </a>
       <a href=" #">
