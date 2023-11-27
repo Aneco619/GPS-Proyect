@@ -1,5 +1,5 @@
 <?php
-  include 'servidor.php';
+include 'servidor.php';
 ?>
 
 <!DOCTYPE html>
@@ -13,12 +13,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sueños, Esperanzas, y Risas. A.C.</title>
+  <title>NASNation</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/Logo3.png" rel="icon">
+  <link href="assets/img/Logo moderno de tecnología Minimalista azul.png" rel="icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
 <body>
 
   <?php
-    require_once 'header.php';
+  require_once 'header.php';
   ?>
 
   <main id="main">
@@ -86,8 +86,8 @@
           <div class="col-lg-5 mb-4 mb-lg-0">
             <h2 class="display-4 mb-4">Servicio Técnico</h2>
             <p>Configuración, Reparación y Mantenimiento de Servidores NAS</p>
-            <p>Proporcionar servicios de configuración personalizada según las necesidades cambiantes del cliente, como integración con nuevas aplicaciones o cambios en la infraestructura.</p> 
-            <p>Ofrecer servicios de optimización regular para garantizar que el servidor opere con eficiencia y aproveche las últimas actualizaciones y tecnologías.</p>          
+            <p>Proporcionar servicios de configuración personalizada según las necesidades cambiantes del cliente, como integración con nuevas aplicaciones o cambios en la infraestructura.</p>
+            <p>Ofrecer servicios de optimización regular para garantizar que el servidor opere con eficiencia y aproveche las últimas actualizaciones y tecnologías.</p>
           </div>
           <div class="col-lg-6">
             <div class="row">
@@ -106,7 +106,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-12 text-center mb-5">
-            
+
           </div>
         </div>
 
@@ -140,9 +140,9 @@
     </section>
 
 
-    
 
-  <!--   <section>
+
+    <!--   <section>
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12 text-center mb-5">
@@ -190,7 +190,7 @@
   </main><!-- End #main -->
 
   <?php
-    require_once 'footer.php';
+  require_once 'footer.php';
   ?>
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
