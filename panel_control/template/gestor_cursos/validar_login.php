@@ -3,9 +3,9 @@ session_start();
 
 $conn = mysqli_connect(
     'localhost',
-    'root',
-    '',
-    'nasnation'
+    'id21582411_nasadmin',
+    'GuidoD890#',
+    'id21582411_nasnation'
 ) or die('Conexión Fallida');
 
 // Obtener datos del formulario de inicio de sesión

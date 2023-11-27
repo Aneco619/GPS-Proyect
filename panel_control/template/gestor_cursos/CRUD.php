@@ -72,7 +72,7 @@ if (!isset($_SESSION['id_usuario'])) {
                     // Aquí deberías tener un código PHP que recupere los datos de la base de datos
                     // y los muestre en la tabla
                     // Por ejemplo:
-                    $conexion = mysqli_connect("localhost", "root", "", "nasnation");
+                    $conexion = mysqli_connect("localhost", "id21582411_nasadmin", "GuidoD890#", "id21582411_nasnation");
                     $consulta = "SELECT * FROM publicaciones";
                     $resultado = mysqli_query($conexion, $consulta);
 

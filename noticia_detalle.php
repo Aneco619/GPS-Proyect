@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$usuario = 'root';
-$contrasena = '';
-$base_datos = 'nasnation';
+$usuario = 'id21582411_nasadmin';
+$contrasena = 'GuidoD890#';
+$base_datos = 'id21582411_nasnation';
 
 $conn = mysqli_connect($host, $usuario, $contrasena, $base_datos);
 

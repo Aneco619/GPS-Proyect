@@ -3,7 +3,7 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Conectarte a la base de datos y realizar la eliminación
-    $conexion = mysqli_connect("localhost", "root", "", "nasnation");
+    $conexion = mysqli_connect("localhost", "id21582411_nasadmin", "GuidoD890#", "id21582411_nasnation");
 
     // Verificar la conexión
     if (!$conexion) {
