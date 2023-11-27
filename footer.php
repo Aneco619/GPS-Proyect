@@ -24,13 +24,13 @@
           <div class="col-6 col-lg-3 align-self-center">
             <div class="d-flex p-2 gap-4">
               <!-- cambiar perfil facebook -->
-              <a href="https://www.facebook.com/profile.php?id=100070818625819">
+              <a href="https://www.facebook.com">
                 <i class="fa-brands fa-facebook fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href="https://www.instagram.com/ser.a.c/">
+              <a href="tel://+52">
                 <i class="fa-brands fa-whatsapp fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href=" #">
+              <a href="mailto: example@a.a">
                 <i class="fa-solid fa-envelope fa-3x " style="color: #FFFFFF;"></i>
               </a>
             </div>
