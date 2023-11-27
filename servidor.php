@@ -1,4 +1,2 @@
 <?php
-$conn = mysqli_connect('localhost','root','','sueños_esperanzas_y_risas') or die('Conexión fallida');
-?>
-
+// $conn = mysqli_connect('localhost','root','','nasnation') or die('Conexión fallida'); -->

@@ -41,5 +41,3 @@ if (isset($_POST)) {
     $url = '../index.php';
     echo "<script>window.open('$url', '_blank');</script>";
 }
-
-?>
