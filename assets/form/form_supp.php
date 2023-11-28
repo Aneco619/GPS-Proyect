@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $categoria = $_POST["categoria"];
     $telefono = $_POST["telefono"];
 
-    $destinatario = "correo@deejemplo.com"; // Aquí hay q poner el correo jeje
+    $destinatario = "nasnationcorporacion@gmail.com"; // Aquí hay q poner el correo jeje
     $asunto = "Nueva consulta de SOPORTE de $nombre";
 
     $mensaje = "Nombre: $nombre\n";
@@ -23,4 +23,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Hubo un problema al enviar la consulta. Por favor, inténtalo de nuevo.";
     }
 }
-?>

@@ -24,13 +24,13 @@
           <div class="col-6 col-lg-3 align-self-center">
             <div class="d-flex p-2 gap-4">
               <!-- cambiar perfil facebook -->
-              <a href="https://www.facebook.com">
+              <a href="https://www.facebook.com/profile.php?id=61553843528501">
                 <i class="fa-brands fa-facebook fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href="tel://+52">
+              <a href="tel://+52 1 434 132 4613">
                 <i class="fa-brands fa-whatsapp fa-3x" style="color: #FFFFFF;"></i>
               </a>
-              <a href="mailto: example@a.a">
+              <a href="mailto: nasnationcorporacion@gmail.com">
                 <i class="fa-solid fa-envelope fa-3x " style="color: #FFFFFF;"></i>
               </a>
             </div>

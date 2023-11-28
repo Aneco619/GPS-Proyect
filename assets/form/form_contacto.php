@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = $_POST["email"];
   $mensaje = $_POST["mensaje"];
 
-  $to = "correo@deejemplo.com"; //Aquí hay q poner el correo jeje
+  $to = "nasnationcorporacion@gmail.com"; //Aquí hay q poner el correo jeje
   $subject = "Nuevo mensaje de $nombre";
   $message = "Nombre: $nombre\nCorreo Electrónico: $email\nMensaje:\n$mensaje";
 
@@ -14,4 +14,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
   echo "Hubo un error al procesar tu solicitud. Por favor, inténtalo de nuevo más tarde.";
 }
-?>

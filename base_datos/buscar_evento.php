@@ -1,6 +1,6 @@
 <?php
 $eventoRow = null;
-$dbconn = mysqli_connect('localhost','root','','sueños_esperanzas_y_risas') or die('Conexión fallida');
+$dbconn = mysqli_connect('localhost', 'id21582411_nasadmin', 'GuidoD890#', 'id21582411_nasnation') or die('Conexión fallida');
 
 if ($_POST) {
     $evento_id = $_POST['evento_id'];
