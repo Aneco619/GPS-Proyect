@@ -171,7 +171,7 @@
 
         <div class="support-form-container">
           <h2>Contacto de Soporte</h2>
-          <form action="procesar_formulario_soporte.php" method="post" enctype="multipart/form-data">
+          <form action="assets/form/form_supp.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
               <label for="nombre">Nombre:</label>
               <input type="text" id="nombre" name="nombre" required>
