@@ -51,7 +51,7 @@
             <!-- formulario -->
             <div class="contact-form" style='background-color: #f5f5f5;'>
               <h3>Envíanos un mensaje</h3>
-              <form action="form_contacto.php" method="post">
+              <form action="assets/form/form_contacto.php" method="post">
                 <div class="mb-3">
                   <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" required>
                 </div>
