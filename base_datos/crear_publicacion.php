@@ -22,7 +22,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     move_uploaded_file($_FILES['imagenpub']['tmp_name'], $rutaImagenPub);
     move_uploaded_file($_FILES['imagenprev']['tmp_name'], $rutaImagenPrev);
 
-
     $insertQuery = "INSERT INTO nasnation.publicaciones (titulo, descripcion, categoria, fecha, imagenpub, imagenprev) 
     VALUES ('$titulo', '$descripcion', '$categoria', '$fecha', '$imagenpub', '$imagenprev')";
 

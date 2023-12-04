@@ -42,9 +42,9 @@ if (!isset($_SESSION['id_usuario'])) {
                 <img src="../assets/images/perfil-prueba.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Administrador
             </a>
-            <a class="navbar-brand text-light" href="./gestionar_noticias.php">Crear publicacion
-            </a>
             <a class="navbar-brand text-light" href="./CRUD.php">Gestionar publicaciones
+            </a>
+            <a class="navbar-brand text-light" href="./gestionar_noticias.php">Crear publicacion
             </a>
             <a class="btn btn-outline-light" href="cerrar_sesion.php">Cerrar sesión</a>
         </div>
@@ -54,6 +54,12 @@ if (!isset($_SESSION['id_usuario'])) {
 
         <div class="container mt-5">
             <!-- Tabla para mostrar los registros -->
+            <?php if (isset($_GET['mensaje'])) {
+                $mensaje = $_GET['mensaje'];
+                echo '<div class="alert alert-success" role="alert">' . htmlspecialchars($mensaje) . '</div>';
+            } ?>
+
+
             <table class="table">
                 <thead>
                     <tr>
@@ -102,11 +108,6 @@ if (!isset($_SESSION['id_usuario'])) {
             <div>
                 <?php
                 // Tu código para mostrar la tabla y otros elementos del CRUD...
-
-                // Mostrar mensaje si está presente en la URL
-                if (isset($_GET['mensaje'])) {
-                    echo '<p>' . $_GET['mensaje'] . '</p>';
-                }
                 ?>
             </div>
         </div>

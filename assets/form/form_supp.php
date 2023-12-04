@@ -14,10 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje .= "Consulta: $consulta\n";
     $mensaje .= "Categoría: $categoria\n";
     $mensaje .= "Teléfono: $telefono\n";
-
+    ini_set("SMTP", "smtp.gmail.com");
+    ini_set("smtp_port", "587");
     $headers = "From: $email";
 
-    if (mail($destinatario, $asunto, $mensaje)) {
+    if (mail($destinatario, $asunto, $mensaje, $headers)) {
         echo "Tu consulta se ha enviado con éxito.";
     } else {
         echo "Hubo un problema al enviar la consulta. Por favor, inténtalo de nuevo.";
