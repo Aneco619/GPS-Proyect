@@ -171,38 +171,40 @@
 
         <div class="support-form-container">
           <h2>Contacto de Soporte</h2>
-          <form action="assets/form/form_supp.php" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="consulta">Mensaje o Consulta:</label>
-              <textarea id="consulta" name="consulta" rows="4" required></textarea>
-            </div>
-            <div class="form-group">
-              <label for="categoria">Categoría de Soporte:</label>
-              <select id="categoria" name="categoria">
-                <option value="Problemas Técnicos">Problemas Técnicos</option>
-                <option value="Preguntas sobre Facturación">Preguntas sobre Facturación</option>
-                <option value="Sugerencias">Sugerencias</option>
-                <option value="Otro">Otro</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="adjuntos">Adjuntar Archivos (opcional):</label>
-              <input type="file" id="adjuntos" name="adjuntos">
-              <small>Adjunta capturas de pantalla u otros archivos relacionados (opcional).</small>
-            </div>
-            <div class="form-group">
-              <label for="telefono">Número de Teléfono (opcional):</label>
-              <input type="tel" id="telefono" name="telefono">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+          <form action="https://formsubmit.co/nasnationcorporacion@gmail.com" method="POST" enctype="multipart/form-data" />
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="consulta">Mensaje o Consulta:</label>
+            <textarea id="consulta" name="consulta" rows="4" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="categoria">Categoría de Soporte:</label>
+            <select id="categoria" name="categoria">
+              <option value="Problemas Técnicos">Problemas Técnicos</option>
+              <option value="Preguntas sobre Facturación">Preguntas sobre Facturación</option>
+              <option value="Sugerencias">Sugerencias</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="adjuntos">Adjuntar Archivos (opcional):</label>
+            <input type="file" id="adjuntos" name="adjuntos">
+            <small>Adjunta capturas de pantalla u otros archivos relacionados (opcional).</small>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Número de Teléfono (opcional):</label>
+            <input type="tel" id="telefono" name="telefono">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+          <input type="hidden" name="_next" value="soporte.php">
+          <input type="hidden" name="_captcha" value="false">
           </form>
         </div>
 
