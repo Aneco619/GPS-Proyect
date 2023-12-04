@@ -50,7 +50,7 @@
           <!-- formulario -->
           <div class="contact-form" style= background-color: #f5f5f5;>
             <h3>Envíanos un mensaje</h3>
-            <form action="assets/form/form_contacto.php" method="post">
+            <form action="https://formsubmit.co/nasnationcorporacion@gmail.com" method="POST" enctype="multipart/form-data"/>
                <div class="mb-3">
                 <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" required>
               </div>
@@ -61,6 +61,8 @@
                 <textarea name="mensaje" class="form-control" rows="4" placeholder="Tu mensaje" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+              <input type="hidden" name="_next" value="soporte.php">
+              <input type="hidden" name="_captcha" value="false">
             </form>
           </div>
         </div>

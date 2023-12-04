@@ -170,7 +170,7 @@ para acceder a los recursos compartidos. </p>
 
     <div class="support-form-container">
       <h2>Contacto de Soporte</h2>
-      <form action="procesar_formulario_soporte.php" method="post" enctype="multipart/form-data">
+      <form action="https://formsubmit.co/nasnationcorporacion@gmail.com" method="POST" enctype="multipart/form-data"/>
         <div class="form-group">
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="nombre" required>
@@ -202,6 +202,8 @@ para acceder a los recursos compartidos. </p>
           <input type="tel" id="telefono" name="telefono">
         </div>
         <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+        <input type="hidden" name="_next" value="soporte.php">
+        <input type="hidden" name="_captcha" value="false">
       </form>
     </div>
 
