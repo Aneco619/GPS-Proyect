@@ -42,9 +42,9 @@ if (!isset($_SESSION['id_usuario'])) {
         <img src="../assets/images/perfil-prueba.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
         Administrador
       </a>
-      <a class="navbar-brand text-light" href="./gestionar_noticias.php">Crear publicacion
-      </a>
       <a class="navbar-brand text-light" href="./CRUD.php">Gestionar publicaciones
+      </a>
+      <a class="navbar-brand text-light" href="./gestionar_noticias.php">Crear publicacion
       </a>
       <a class="btn btn-outline-light" href="cerrar_sesion.php">Cerrar sesión</a>
     </div>

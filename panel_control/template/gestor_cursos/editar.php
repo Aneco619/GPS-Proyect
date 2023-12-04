@@ -121,12 +121,12 @@ if (!isset($_SESSION['id_usuario'])) {
                 </div>
                 <div class="mb-3">
                     <label for="imagenpub" class="form-label">Imagen de la publicación</label>
-                    <input type="file" class="form-control" id="imagenpub" name="imagenpub">
+                    <input type="file" class="form-control" id="imagenpub" name="imagenpub" value="<?php echo $imagenpub ?>">
                     <img src="../../../assets/img/<?php echo $imagenpub ?>" alt="imagen actual">
                 </div>
                 <div class="mb-3">
                     <label for="imagenedit" class="form-label">Imagen previa</label>
-                    <input type="file" class="form-control" id="imagenprev" name="imagenprev">
+                    <input type="file" class="form-control" id="imagenprev" name="imagenprev" value="<?php echo $imagenprev ?>">
                     <img src="../../../assets/img/<?php echo $imagenprev ?>" alt="imagen actual">
                 </div>
                 <div class="mb-3">
